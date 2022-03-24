@@ -1,0 +1,241 @@
+
+.col1 {
+    height: 800px;
+    flex: 2;
+    margin: 50px;
+    margin-left: 300px;
+}
+.mainpage {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.col2 {
+    height: 800px;
+    flex: 1;
+    margin: 50px;
+    margin-right: 300px;
+}
+.usercard {
+    height: 60%;
+    margin-bottom: 80px;
+    border: 3px solid grey;
+}
+.education {
+    height: 30%;
+    border: 3px solid grey;
+}
+.connectionrequests {
+    height: 30%;
+    margin-bottom: 80px;
+    border: 3px solid grey;
+}
+.yourconnections {
+    height: 45%;
+    border: 3px solid grey;
+    border-bottom: 0;
+}
+.yourconnectionslink {
+    height: 10%;
+    border: 3px solid grey;
+}
+.viewmorelink {
+    font-size: x-large;
+    position: relative;
+    top: 23px;
+    left: 20px;
+    color: blue;
+    text-decoration: underline;
+}
+
+/*
+.container {
+    border: 2px solid grey;
+    width: 60%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: honeydew;
+}
+*/
+.topbarblue {
+    position: relative;
+    top: 0px;
+    background-color: rgb(55, 217, 223);
+    height: 32%;
+    width: 100%;
+}
+.usercircle {
+    filter: invert(1);
+    position: relative;
+    padding: 40px;
+    top: 30px;
+    left: 0px;
+    height: 180px;
+    margin-bottom: 0px;
+}
+.textusercard{
+    position: relative;
+    left: 25px;
+    top: -30px;
+}
+.gear {
+    height: 20px;
+    margin-right: 20px;
+}
+.mapmarker {
+    height: 20px;
+}
+a {
+    color: blue;
+}
+.topbarblack-s {
+    position: relative;
+    top: 0px;
+    background-color: rgb(0, 0, 0);
+    height: 25%;
+    width: 100%;
+}
+.topbarblack-l {
+    position: relative;
+    top: 0px;
+    background-color: rgb(0, 0, 0);
+    height: 80px;
+    width: 100%;
+}
+.educationtitle {
+    position: relative;
+    top: 17px;
+    color: white;
+    font-size: x-large;
+    left: 40px;
+}
+.friendreqtitle {
+    position: relative;
+    top: 20px;
+    color: white;
+    font-size: 20pt;
+    left: 50px;
+}
+.yourconnectionstitle {
+    position: relative;
+    top: 20px;
+    color: white;
+    font-size: 20pt;
+    left: 35px;
+}
+.usercirclesmall {
+    filter: invert(1);
+    position: relative;
+    top: 85px;
+    left: 20px;
+    height: 40px;
+    outline: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+}
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+.userwithbuttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+.name {
+    color: black;
+    font-size: larger;
+    position: relative;
+    top: 68px;
+    left: 33px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.profile {
+    display: flex;
+}
+.button {
+    margin-right: 20px;
+    border-radius: 50%;
+    height: 25px;
+    background-color: darkgrey;
+    color: white;
+    margin-top: 130px;
+}
+.label {
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: grey;
+    font-size: 1.3em;
+    padding: 8px 15px 8px 15px;
+    position: relative;
+    right: 20px;
+}
+.l1 {
+    margin: 20px 20px 20px 20px;
+    font-size: x-large;
+}
+.l2 {
+    margin: 20px 20px 20px 20px;
+    font-size: large;
+    color: grey;
+}
+.l3 {
+    margin: 20px 20px 20px 20px;
+    font-size: x-large;
+}
+footer {
+    height: 70px;
+    background-color: grey;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(0, 0, 0);
+    padding: 0 300px;
+}
+a {
+    text-decoration: none;
+    color: rgb(180, 180, 180);
+}
+.nav-links {
+    display: flex;
+    text-decoration: none;
+    padding-inline-start: 0px;
+    }
+
+.btn {
+        color: white;
+        border-color: black;
+        background-color: blue;
+        box-shadow: 5px 5px 5px black;
+        font-size: large;
+        border-style: solid;
+    }
+.active {
+    color: white;
+}
+.nav-title {
+    color: white;
+    font-size: xx-large;
+    padding-top: 18px;
+    margin-right: 10px;
+    
+}
+.nav-links > li {
+    margin: 10px;
+    padding-top: 20px;
+    list-style-type: none;
+}
+.edit {
+    color: blue;
+}
